@@ -24,10 +24,15 @@ You need two things first:
 
 ## How to install
 
-1. Open Claude on your desktop (the Claude desktop app, with Cowork enabled).
-2. In the sidebar, click **Customize > Plugins > Add > Upload plugin**.
-3. Select the `ai-agent-team.zip` file you downloaded.
-4. Once installed, type `/set-me-up` in a Cowork chat to begin.
+Install the Foundation first, then the Team. In the Claude desktop app with Cowork enabled, run these one at a time:
+
+```
+/plugin marketplace add tracyhenning/porchlyte-agents
+/plugin install ai-agent-foundation@porchlyte-agents
+/plugin install ai-agent-team@porchlyte-agents
+```
+
+Once installed, type `/set-me-up` in a Cowork chat to begin. No zip to download or upload, and you get updates automatically whenever they're published.
 
 The setup walks you through hiring your team. You don't have to hire all nine at once. Start with one, see how it goes, come back for the next. Your work saves.
 

@@ -10,10 +10,14 @@ The three skills every AI Agent Team member reads from. Set these up first.
 
 ## How to install
 
-1. Open Claude on your desktop (the Claude desktop app, with Cowork enabled).
-2. In the sidebar, click **Customize > Plugins > Add > Upload plugin**.
-3. Select the `ai-agent-foundation.zip` file you downloaded.
-4. Once installed, type `/foundations-setup` in a Cowork chat to begin.
+In the Claude desktop app with Cowork enabled, open a chat and run these one at a time:
+
+```
+/plugin marketplace add tracyhenning/porchlyte-agents
+/plugin install ai-agent-foundation@porchlyte-agents
+```
+
+Once installed, type `/foundations-setup` in a Cowork chat to begin. No zip to download or upload, and you get updates automatically whenever they're published.
 
 The setup walks you through Voice, Brand, and Local one at a time. Plan on 15 to 20 minutes if you do all three back to back. You can also stop after one and come back later. Your work saves.
 
