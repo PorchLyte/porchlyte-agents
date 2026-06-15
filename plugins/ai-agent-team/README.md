@@ -27,7 +27,7 @@ You need two things first:
 Install the Foundation first, then the Team. In the Claude desktop app with Cowork enabled, run these one at a time:
 
 ```
-/plugin marketplace add tracyhenning/porchlyte-agents
+/plugin marketplace add Tracy10162016/porchlyte-agents
 /plugin install ai-agent-foundation@porchlyte-agents
 /plugin install ai-agent-team@porchlyte-agents
 ```

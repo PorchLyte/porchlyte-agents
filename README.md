@@ -12,12 +12,12 @@ This marketplace holds two plugins:
 In the Claude desktop app with Cowork enabled, open a chat and run these commands one at a time:
 
 ```
-/plugin marketplace add tracyhenning/porchlyte-agents
+/plugin marketplace add Tracy10162016/porchlyte-agents
 /plugin install ai-agent-foundation@porchlyte-agents
 /plugin install ai-agent-team@porchlyte-agents
 ```
 
-> Replace `tracyhenning` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
+> Replace `Tracy10162016` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
 
 Then set up your Foundation:
 

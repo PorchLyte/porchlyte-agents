@@ -13,7 +13,7 @@ The three skills every AI Agent Team member reads from. Set these up first.
 In the Claude desktop app with Cowork enabled, open a chat and run these one at a time:
 
 ```
-/plugin marketplace add tracyhenning/porchlyte-agents
+/plugin marketplace add Tracy10162016/porchlyte-agents
 /plugin install ai-agent-foundation@porchlyte-agents
 ```
 
