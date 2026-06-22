@@ -1,31 +1,33 @@
-# PorchLyte AI Agents
+# PorchLyte AI Agent Team
 
-The AI Agent system for real estate agents, distributed as installable Claude plugins. Instead of downloading and uploading a zip, you add this marketplace once and Claude installs (and updates) the plugins for you.
+Your nine-person AI team for real estate, distributed as an installable Claude plugin. Instead of downloading and uploading a zip, you add this marketplace once and Claude installs (and updates) the plugin for you.
 
-This marketplace holds two plugins:
+This is **step two**. Set up your [AI Agent Foundation](https://github.com/PorchLyte/porchlyte-foundations) first — usually on an earlier day so you're not doing everything at once. Then come here to hire your team. Every team member reads from the Voice, Brand, and Local profiles you build in the Foundation.
 
-- **AI Agent Foundation** — three skills (Voice, Brand, Local) that teach Claude how you sound, how your brand looks, and what your market is really like. Install this first. Everything else reads from it.
+This marketplace holds one plugin:
+
 - **AI Agent Team** — your nine-person AI team: Ella (email), Darla (daily briefing), Chloe (content), Poppy (podcast), Treena (transactions), Lia (listings), Sloane (sphere), Rhonda (relocation), and Olivia (objections). Requires the Foundation.
 
 ## How to install (for agents using these)
 
+First install the Foundation from its own repo: [porchlyte-foundations](https://github.com/PorchLyte/porchlyte-foundations). Once your Foundation is set up, come back here.
+
 In the Claude desktop app with Cowork enabled, open a chat and run these commands one at a time:
 
 ```
-/plugin marketplace add Tracy10162016/porchlyte-agents
-/plugin install ai-agent-foundation@porchlyte-agents
+/plugin marketplace add PorchLyte/porchlyte-agents
 /plugin install ai-agent-team@porchlyte-agents
 ```
 
-> Replace `Tracy10162016` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
+> Replace `PorchLyte` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
 
-Then set up your Foundation:
+Then hire your team:
 
 ```
-/foundations-setup
+/set-me-up
 ```
 
-That walks you through Voice, Brand, and Local one at a time (about 15–20 minutes for all three). You can stop after one and come back later. Your answers save.
+That walks you through meeting and hiring your team one at a time. You don't have to hire all nine at once — start with one, see how it goes, come back later. Your work saves.
 
 ## How updates work
 
@@ -37,21 +39,24 @@ Once someone has added the marketplace, they get your latest version automatical
 
 No new zip. No re-uploading. You edit here, they get it there.
 
-## How to update the plugins (for Tracy)
+## How to update the plugin (for Tracy)
 
-1. Edit the files inside `plugins/ai-agent-foundation/` or `plugins/ai-agent-team/`.
+1. Edit the files inside `plugins/ai-agent-team/`.
 2. Commit and push to GitHub.
 
-That's it. Because the plugins don't pin a version number, every commit you push counts as a new version, so your users receive the update on their next refresh.
+That's it. Because the plugin doesn't pin a version number, every commit you push counts as a new version, so your users receive the update on their next refresh.
 
-If you'd rather control exactly when updates go out, add a `"version"` field to the plugin's `.claude-plugin/plugin.json` and bump it on each release. Then users only update when that number changes.
+If you'd rather control exactly when updates go out, add a `"version"` field to `plugins/ai-agent-team/.claude-plugin/plugin.json` and bump it on each release. Then users only update when that number changes.
+
+## The Foundation lives in a separate repo
+
+The Voice, Brand, and Local skills now ship from [porchlyte-foundations](https://github.com/PorchLyte/porchlyte-foundations). They're split out so course users can set up their Foundation first and add the Team on a later day without being overwhelmed. The Team still requires the Foundation — it just installs from its own marketplace.
 
 ## Repo layout
 
 ```
-.claude-plugin/marketplace.json     <- the catalog that lists both plugins
+.claude-plugin/marketplace.json     <- the catalog that lists the Team plugin
 plugins/
-  ai-agent-foundation/              <- Foundation plugin (Voice, Brand, Local)
   ai-agent-team/                    <- Team plugin (the nine members)
 ```
 
