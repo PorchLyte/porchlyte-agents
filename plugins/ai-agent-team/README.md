@@ -18,7 +18,7 @@ Your nine-person AI team for real estate. Each one trained for a specific job, a
 
 You need two things first:
 
-1. **The AI Agent Foundation plugin** installed and set up. Every team member here reads from your Voice, Brand, and Local profiles. Without Foundations, the team works but the personalization is generic. The Foundation installs from its own repo: [porchlyte-foundations](https://github.com/PorchLyte/porchlyte-foundations). Get it free at porchlyte.com/agent-ai.
+1. **The AI Agent Foundation plugin** installed and set up. Every team member here reads from your Voice, Brand, and Local profiles. Without Foundations, the team works but the personalization is generic. The Foundation installs from its own repo: [porchlyte-foundations](https://github.com/PorchLyte/porchlyte-foundations). Set it up first; details at porchlyte.com/agent-ai.
 
 2. **Claude Cowork on the desktop app**, paid plan. Plugins only run on the desktop app.
 
