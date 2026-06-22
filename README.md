@@ -12,16 +12,19 @@ This marketplace holds one plugin:
 
 First install the Foundation from its own repo: [porchlyte-foundations](https://github.com/PorchLyte/porchlyte-foundations). Once your Foundation is set up, come back here.
 
-In the Claude desktop app with Cowork enabled, open a chat and run these commands one at a time:
+In the Claude desktop app, you add this marketplace through the Plugins panel (not a chat command):
 
-```
-/plugin marketplace add PorchLyte/porchlyte-agents
-/plugin install ai-agent-team@porchlyte-agents
-```
+1. Open the left sidebar, click **Customize**, then the **Plugins** tab.
+2. Click **Add** (top right), choose **Add marketplace**, and paste in:
 
-> Replace `PorchLyte` with the GitHub username (or org) this repo lives under. The pattern is always `owner/repo`.
+   ```
+   PorchLyte/porchlyte-agents
+   ```
 
-Then hire your team:
+   > The pattern is always `owner/repo`. Replace `PorchLyte` if this repo moves.
+3. Under the new **porchlyte-agents** marketplace, find **AI Agent Team** and click **+** to install it.
+
+Then hire your team by typing this slash command in a chat:
 
 ```
 /set-me-up
@@ -29,13 +32,11 @@ Then hire your team:
 
 That walks you through meeting and hiring your team one at a time. You don't have to hire all nine at once — start with one, see how it goes, come back later. Your work saves.
 
+> Note: `/plugin marketplace add` and `/plugin install` are Claude **Code** (CLI) commands. They do **not** work in the Cowork desktop app, where you install through the Plugins panel above. Only commands that come from an installed plugin (like `/set-me-up`) work as slash commands in Cowork.
+
 ## How updates work
 
-Once someone has added the marketplace, they get your latest version automatically. When you push a change to this repo, their Claude picks it up the next time it refreshes the marketplace. If they want to pull updates immediately, they run:
-
-```
-/plugin marketplace update porchlyte-agents
-```
+Once someone has added the marketplace, they get your latest version automatically. When you push a change to this repo, their Claude picks it up the next time it refreshes the marketplace. To pull updates immediately, in **Customize > Plugins** they click the **···** next to the **porchlyte-agents** marketplace and choose **Update**.
 
 No new zip. No re-uploading. You edit here, they get it there.
 
