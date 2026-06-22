@@ -60,6 +60,10 @@ plugins/
   ai-agent-team/                    <- Team plugin (the nine members)
 ```
 
+## License & access
+
+Proprietary. All rights reserved. This is **not** open source. Use requires a current paid license or subscription from PorchLyte — see [LICENSE](LICENSE). Do not copy, share, redistribute, or resell. (The repo is public for now only so customers can install; private access is planned.)
+
 ## Questions
 
 Email tracy@porchlyte.com or visit porchlyte.com.
