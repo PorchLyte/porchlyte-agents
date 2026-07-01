@@ -47,11 +47,13 @@ You can also hire more team members anytime by typing `/set-me-up` again.
 
 ## Connectors that help
 
-Some team members work better when they can pull from your tools:
+Every team member works fully in chat with nothing connected. Connectors are upgrades, not requirements:
 
-- Ella, Darla, Treena → Gmail
-- Darla → Google Calendar
-- Treena, Sloane → Google Drive
+- **Gmail** — Darla, Ella, Treena, Sloane, Olivia, Poppy, Rhonda. They read threads for context and draft into your inbox. They never send.
+- **Google Calendar** — Darla, Treena, Sloane, Chloe, Lia, Rhonda. Deadlines, reminders, birthdays, posting schedules.
+- **Google Drive** — Treena, Sloane, Ella, Lia, Rhonda, Olivia, Poppy, Chloe. Shared client records the team reads and writes together, plus the Objection Vault, sphere roster, and content libraries.
+- **Canva** — Chloe, Lia, Poppy. Finished on-brand graphics as a handoff.
+- **Claude in Chrome** — Treena, Sloane, Chloe, Lia, Poppy, Rhonda, Darla. Reads what's on your screen (your CRM, MLS, Insights, a forum thread). Read-only, never acts or logs in.
 
 Connect them under **Customize > Connectors** in Cowork. The setup will prompt you when needed.
 
