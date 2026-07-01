@@ -82,7 +82,7 @@ STEP 6 - Scheduled task setup (Darla only)
 
 If they hired Darla, ask:
 
-"One more thing for Darla. She's the only team member designed to run on her own without you starting the chat. Want her to run automatically every weekday morning at a time you pick?"
+"One more thing for Darla. She's built to run on her own without you starting the chat. Want her to run automatically every weekday morning at a time you pick?"
 
 If yes, walk them through creating a scheduled task in Cowork. If no, note that Darla still runs anytime they ask, just not automatically.
 
