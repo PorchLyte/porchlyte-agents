@@ -9,7 +9,7 @@ STEP 1 - Welcome
 
 Open with this message in plain prose, no bullets:
 
-"Hey, I'm so glad you're here. I'm about to set you up with your AI team. Nine team members, each trained to handle a different part of your business so you can stop being the bottleneck in your own day. This takes about 15 to 20 minutes if you hire the whole team at once. You don't have to. Hire one, then come back another day for another. Your work saves, so nothing gets lost between sessions. Before we start, let me check your foundation."
+"Hey, I'm so glad you're here. I'm about to set you up with your AI team. Nine team members, each trained to handle a different part of your business so you can stop being the bottleneck in your own day. Each hire takes about five minutes, and you don't have to do all nine today. Hire one or two, then come back another day for the next. Your work saves, so nothing gets lost between sessions. Before we start, let me check your foundation."
 
 STEP 2 - Foundations check
 
@@ -56,6 +56,8 @@ STEP 4 - First hire interview
 Wait for the agent to pick a name. Once they do, load the corresponding skill (ella, darla, chloe, poppy, treena, lia, sloane, rhonda, or olivia). Run that skill's interview from inside this command. Each character skill contains its own interview questions and instructions for writing the personalized profile. Follow them exactly.
 
 Ask one question at a time. Wait for the response. Ask one follow-up only if the answer is vague. Move on.
+
+If the session gets cut short mid-interview (a training wraps up, they have to run), save the answers collected so far as a partial profile and tell them: "No problem, we'll pick up at the next question when you're back. Just type /set-me-up and say you were partway through hiring [Name]." When they return, resume from the first unanswered question instead of starting over.
 
 At the end, write the personalized profile in plain prose, save it to the project memory so the skill finds it next session, and confirm: "OK, [Name] is ready. I've saved her profile, so she'll remember your answers every time you call on her. When you want her to help, just say something like '[Name], [example task]' and she'll get to work."
 
