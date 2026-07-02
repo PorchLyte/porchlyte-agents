@@ -17,7 +17,7 @@ Check whether the agent has the Voice, Brand, and Local skills set up (from the 
 
 If any of the three are missing, pause here. Say:
 
-"Quick pause. I don't see your Foundations installed yet (Voice, Brand, Local). Those need to come first, because every team member you hire today is going to read from them. The Foundation installs from its own marketplace. Open the Cowork tab and click Customize. Click the + next to Personal plugins, choose Create plugin, then Add marketplace, then Add from a repository, and paste in PorchLyte/porchlyte-foundations. Click the black Sync button, then click the + on AI Agent Foundation to activate it. Type /foundations-setup and finish the three interviews. Once that's done, come back here and type /set-me-up again. I'll pick up right where we left off."
+"Quick pause. I don't see your Foundations installed yet (Voice, Brand, Local). Those need to come first, because every team member you hire today is going to read from them. The Foundation installs from its own marketplace. Click Customize in the left sidebar. Click the + next to Personal plugins, choose Create plugin, then Add marketplace, then Add from a repository, and paste in PorchLyte/porchlyte-foundations. Click the black Sync button, then click the + on AI Agent Foundation to activate it. Type /foundations-setup and finish the three interviews. Once that's done, come back here and type /set-me-up again. I'll pick up right where we left off."
 
 End the session here. Don't continue.
 
