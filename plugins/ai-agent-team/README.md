@@ -24,12 +24,12 @@ You need two things first:
 
 ## How to install
 
-Install the Foundation first (from its own marketplace), then the Team. In the Claude desktop app, both install through the Plugins panel — go to **Customize > Plugins**, click **Add**, then **Add marketplace**, and paste in each address, installing the plugin from each:
+Install the Foundation first (from its own marketplace), then the Team. In the Claude desktop app, open the **Cowork** tab and click **Customize**. Click the **+** next to **Personal plugins**, choose **Create plugin**, then **Add marketplace**, then **Add from a repository**. Paste in each address, click the black **Sync** button, then click the **+** on the plugin card to activate it:
 
-1. Add marketplace `PorchLyte/porchlyte-foundations`, then install **AI Agent Foundation**.
-2. Add marketplace `PorchLyte/porchlyte-agents`, then install **AI Agent Team**.
+1. Add `PorchLyte/porchlyte-foundations`, sync, then activate **AI Agent Foundation**.
+2. Add `PorchLyte/porchlyte-agents`, sync, then activate **AI Agent Team**.
 
-Once installed, type `/set-me-up` in a Cowork chat to begin. No zip to download or upload, and you get updates from the Plugins panel whenever they're published.
+Once installed, type `/set-me-up` in a Cowork chat to begin. No zip to download or upload, and you get updates from the same panel whenever they're published.
 
 The setup walks you through hiring your team. You don't have to hire all nine at once. Start with one, see how it goes, come back for the next. Your work saves.
 
