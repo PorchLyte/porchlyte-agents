@@ -13,15 +13,19 @@ Open with this message in plain prose, no bullets:
 
 STEP 2 - Foundations check
 
-Check whether the agent has the Voice, Brand, and Local skills set up (from the AI Agent Foundation plugin).
+Read these three files: ~/porchlyte/voice.md, ~/porchlyte/brand.md, and ~/porchlyte/local.md. The files are the check. Don't go by whether the Foundation plugin shows as installed, because the profiles the team reads from live in those files.
 
-If any of the three are missing, pause here. Say:
+If any of the three files are missing and the Foundation plugin is not installed, pause here. Say:
 
 "Quick pause. I don't see your Foundations installed yet (Voice, Brand, Local). Those need to come first, because every team member you hire today is going to read from them. The Foundation installs from its own marketplace. Click Customize in the left sidebar. Click the + next to Personal plugins, choose Create plugin, then Add marketplace, then Add from a repository, and paste in PorchLyte/porchlyte-foundations. Click the black Sync button, then click the + on AI Agent Foundation to activate it. Type /foundations-setup and finish the three interviews. Once that's done, come back here and type /set-me-up again. I'll pick up right where we left off."
 
-End the session here. Don't continue.
+If any of the three files are missing but the Foundation plugin is installed, pause here. Say:
 
-If all three Foundations are present, say:
+"Quick pause. I see the Foundation plugin, but your finished profiles aren't there yet (Voice, Brand, Local). Those need to come first, because every team member you hire today is going to read from them. Type /foundations-setup and finish the three interviews. It saves as you go, so you can do one at a time. Once that's done, come back here and type /set-me-up again. I'll pick up right where we left off."
+
+End the session in either missing case. Don't continue.
+
+If all three files exist, say:
 
 "Foundations look good. Voice, Brand, and Local are all active, which means every team member you hire today is going to pull from those. That's why everything is going to sound like you, not like a generic real estate template. Now let's meet your team."
 
@@ -57,9 +61,9 @@ Wait for the agent to pick a name. Once they do, load the corresponding skill (e
 
 Ask one question at a time. Wait for the response. Ask one follow-up only if the answer is vague. Move on.
 
-If the session gets cut short mid-interview (a training wraps up, they have to run), save the answers collected so far as a partial profile and tell them: "No problem, we'll pick up at the next question when you're back. Just type /set-me-up and say you were partway through hiring [Name]." When they return, resume from the first unanswered question instead of starting over.
+If the session gets cut short mid-interview (a training wraps up, they have to run), save the answers collected so far to ~/porchlyte/team/[name].md with a first line that says PARTIAL PROFILE plus which question comes next, and tell them: "No problem, we'll pick up at the next question when you're back. Just type /set-me-up and say you were partway through hiring [Name]." When they return, read that file, see the partial marker, and resume from the first unanswered question instead of starting over.
 
-At the end, write the personalized profile in plain prose, save it to the project memory so the skill finds it next session, and confirm: "OK, [Name] is ready. I've saved her profile, so she'll remember your answers every time you call on her. When you want her to help, just say something like '[Name], [example task]' and she'll get to work."
+At the end, write the personalized profile in plain prose and save it to ~/porchlyte/team/[name].md, for example ~/porchlyte/team/darla.md. Create the team folder inside the porchlyte folder if it doesn't exist. This exact path matters: it lives outside the plugin so updates never wipe it, and it's the file the character skill reads at the start of every session. Then confirm: "OK, [Name] is ready. I've saved her profile, so she'll remember your answers every time you call on her. When you want her to help, just say something like '[Name], [example task]' and she'll get to work."
 
 STEP 5 - Connector check
 
@@ -109,6 +113,8 @@ Show them their team so far:
 The rest are still available whenever you're ready: [list remaining team members].
 
 To bring [hired name] into a conversation, just mention her name and tell her what you need. To add someone new to the team later, type /set-me-up again and pick up where you left off.
+
+Everything your team knows about you lives in a porchlyte folder in your home folder, so nothing gets lost between sessions and you can open or edit any of it whenever you want.
 
 You've got this."
 

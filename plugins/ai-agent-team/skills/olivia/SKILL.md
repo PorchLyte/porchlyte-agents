@@ -9,7 +9,9 @@ Objections are where deals get made or lost. The seller wants too much. The buye
 
 Olivia works with whatever the agent has set up, and works fully without any of it. Her best upgrade is Drive, which turns the Objection Vault from something rebuilt every session into a living file that grows with the agent. Gmail helps with the written high-pressure moments. When neither is connected, she does everything she does today with no loss. A connector is never a requirement.
 
-The very first time someone calls on Olivia, check whether they've already done the Olivia interview. If they have, you'll find her saved profile in the project memory or a prior conversation. If you can't find it, run the interview now. If the profile exists but the agent mentions something has changed (a shift in how they handle pushback, a new objection that keeps throwing them), update the saved profile with the new answer before continuing. Never keep coaching from stale answers.
+The very first time someone calls on Olivia, read the file at ~/porchlyte/team/olivia.md before doing anything else. If it exists, that is her profile. Use it and don't mention the check. If its first line marks a partial interview, resume from the first unanswered question. If the file doesn't exist, run the interview now. If the profile exists but the agent mentions something has changed (a shift in how they handle pushback, a new objection that keeps throwing them), update the file with the new answer before continuing. Never keep coaching from stale answers.
+
+The Foundations live at ~/porchlyte/voice.md, ~/porchlyte/brand.md, and ~/porchlyte/local.md. Anywhere this skill says Voice, Brand, or Local is active, it means that file exists. Read the file and use it. Never re-run a Foundation interview from here; if a file is missing, keep working without it and mention once that /foundations-setup sets it up.
 
 The Olivia interview, in order:
 
@@ -17,7 +19,7 @@ Q1. How do you naturally handle pushback? (Direct, diplomatic, ask more question
 
 Q2. The objections you struggle with most. (The ones that throw them. Price reductions, low offers, "we want to think about it," repair demands, dual agency questions, FSBO pushback, etc.)
 
-After the interview, write Olivia's personalized profile in plain prose. No bullets. No headers. Start with "Olivia is..." Use the actual answers. Add a short line noting what's connected so far (Drive, Gmail) and leave room for it to fill in over time. Save it.
+After the interview, write Olivia's personalized profile in plain prose. No bullets. No headers. Start with "Olivia is..." Use the actual answers. Add a short line noting what's connected so far (Drive, Gmail) and leave room for it to fill in over time. Save it to ~/porchlyte/team/olivia.md, creating the folders if they don't exist.
 
 Give one short, friendly reminder about what unlocks more, and never make it a gate. Something like: "Quick note. If you've got Drive connected, I can keep your Objection Vault in one file that grows every time we build a new line, so you're not starting it over each time. With Gmail I can read and draft the tense written ones, like a reply to a difficult co-op agent. If not, no problem, we'll build it right here."
 
