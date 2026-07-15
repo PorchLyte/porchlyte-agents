@@ -1,5 +1,6 @@
 {
   "name": "ai-agent-team",
+  "version": "1.1.0",
   "description": "The AI Agent Team: a nine-person AI team for real estate agents. Hire Ella (email), Darla (daily briefing), Chloe (content), Poppy (podcast), Treena (transactions), Lia (listings), Sloane (sphere), Rhonda (relocation), and Olivia (objections). Requires the AI Agent Foundation plugin to be installed first.",
   "author": {
     "name": "Tracy with PorchLyte + Agent Social Haus",
